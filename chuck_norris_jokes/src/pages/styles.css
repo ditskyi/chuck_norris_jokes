@@ -1,0 +1,83 @@
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
+.table>:not(caption)>*>* {
+  padding: .3rem .3rem;
+}
+
+.card-body {
+  padding: .5rem .5rem;
+}
+
+.btn {
+  padding: 0.3rem 0.5rem;
+}
+
+.card-title {
+  margin-bottom: 0rem;
+}
+
+h1 {
+  margin-bottom: 6rem;
+  font-size: 5rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn-primary {
+  background-color: #00c091;;
+  border-color: black;
+}
+
+.btn-primary:hover {
+  border-color: #00c091;;
+  background-color: #00c091;;
+}
+
+.cv {
+  height: auto;
+  position: relative;
+}
+
+.col-lg-2 {
+  width: 50%;
+}
+
+.col-size-value {
+  width: 70%;
+}
+
+.textarea {
+  display: block;
+  word-break: break-all;
+  width: 100%;
+  border: none;
+}
+
+.ps-1 {
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+
+  body {
+    font-size: small;
+    font-family: 'Dosis', sans-serif;
+   
+  }
+
+  h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .col-lg-2 {
+    width: 100%;
+  }
+
+  .img-fluid {
+    width: 100%;
+  }
+  
+}
